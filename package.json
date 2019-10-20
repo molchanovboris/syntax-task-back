@@ -1,0 +1,28 @@
+{
+    "name": "psious-test-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon ./server.js",
+        "lint": "./node_modules/.bin/eslint ./app/**/*.js ./server.js",
+        "lint:fix": "./node_modules/.bin/eslint --fix ./app/**/*.js ./server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.7.5",
+        "socket.io": "^2.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^6.3.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-plugin-import": "^2.18.2",
+        "nodemon": "^1.19.2"
+    }
+}
